@@ -1,85 +1,27 @@
+# Java Multicast Group Chat
 
-# 💬 GroupChat-Multicast – Java Group Chat via Multicast Sockets
+Java multicast socket chat app for real-time group messaging on a local network.
 
-A lightweight Java-based group chat application that uses **multicast communication** to enable real-time chatting across multiple users on the same network.
+## Key Features
+- Java multicast socket chat app for real-time group messaging on a local network
+- Android or JVM project structure is documented with the relevant Gradle, Kotlin, or Java entry points.
 
-Built to demonstrate Java's networking capabilities using UDP multicast sockets.
+## Tech Stack
+- Java
 
----
+## Project Structure
+- Key files: src/GroupChat.java.
 
-## 🛠 Features
-
-- 📡 Multicast-based message broadcasting  
-- 💻 Terminal-based client interface  
-- 🔁 Continuous message listening via threads  
-- 🚫 No external libraries required — Pure Java  
-- 🧪 Great for learning socket programming
-
----
-
-## 🚀 How to Run
-
-### 1. Compile the Java files:
-
+## Setup and Run
 ```bash
-javac GroupChat.java ReadThread.java
-````
-
-> Ensure your terminal is inside the `src/` directory (if applicable).
-
-### 2. Run the chat client:
-
-```bash
-java GroupChat <multicast-address> <port-number>
+git clone https://github.com/theadhithyankr/java-multicast-group-chat.git
+cd java-multicast-group-chat
+# Open the source files in your preferred editor and run with the matching local toolchain.
 ```
 
-**Example:**
+## What This Project Demonstrates
+- Working with Android or JVM project structure, build tooling, and platform-specific source layout.
+- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
 
-```bash
-java GroupChat 230.0.0.0 4446
-```
-
-Now open **multiple terminals** and run the above command in each to simulate multi-user chatting.
-
----
-
-## 🧠 How It Works
-
-* `GroupChat.java`: Main client that sends messages and starts a listener thread
-* `ReadThread.java`: Listens for incoming messages using a multicast socket
-* Users joining the same multicast group can see each other’s messages
-
----
-
-## 📦 File Structure
-
-```
-GroupChat-Java-Multicast-Chat-App/
-├── src/
-│   ├── GroupChat.java
-│   └── ReadThread.java
-├── .gitignore
-└── README.md
-```
-
----
-
-## 🔐 Requirements
-
-* Java JDK 8 or later
-* Works on any OS with terminal and local network
-
----
-
-## 📄 License
-
-MIT License — use, modify, and share freely.
-
----
-
-## 🧑‍💻 Author
-
-Built with 🔥 by [@theadithyankr](https://github.com/theadhithyankr)
-Networking fundamentals made simple.
-
-
+## Repository
+- GitHub: https://github.com/theadhithyankr/java-multicast-group-chat
