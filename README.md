@@ -29,19 +29,19 @@ The README was written from the repository contents, including its manifest file
 
 ## Project Structure
 
-`	ext
+```text
 .
 |-- README.md
 |-- src/GroupChat.class
 |-- src/GroupChat.java
-`
+```
 
 ## Setup
 
-`ash
+```bash
 javac src/GroupChat.java
 java <MainClass>
-`
+```
 
 ## What This Project Demonstrates
 
